@@ -19,9 +19,15 @@ Implementar a base de dados da agenda usando lista duplamente ligada
 Somente essa base de dados pode ficar fora do buffer principal, ou seja, pode usar um malloc para cada nodo.
 
 Pbuffer Bytes : 1-4 = call;
-                 5-14 = Nome para ser buscado;
-                 15-24 = Nome;
-                 25-28 = Idade;
-                 29-32 = Telefone;
-                 33-36 = Previous address // if sizeof(void *) = 4
-                 37-40 = Next address // if sizeof(void *) = 4
+                
+                5-14 = Nome para ser buscado;
+                
+                15-24 = Nome;
+                 
+                25-28 = Idade;
+                 
+                29-32 = Telefone;
+                 
+                33-36 = Previous address // if sizeof(void *) = 4
+                 
+                37-40 = Next address // if sizeof(void *) = 4
